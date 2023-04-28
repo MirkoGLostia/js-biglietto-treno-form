@@ -13,59 +13,9 @@
  *HHEADER*
  *********/
 
-#ticket-title {
-    background-color: rgba(168, 101, 25, 0.671);
-    color: rgb(0, 255, 64);
-    font-size: 50px;
-    min-height: 150px;
-    width: 100%;
-    text-align: center;
-    padding-top: 10px;
-}
-
-
 /******
  *MAIN*
  ******/
-
-#info-for-ticket {
-    background-color: rgba(0, 0, 255, 0.582);
-    height: calc(100vh - 150px);
-    overflow: hidden;
-}
-
-#info-for-ticket > div {
-    padding-top: 100px;
-}
-
-#info-for-ticket > div > div {
-    background-color: rgba(68, 0, 255, 0.836);
-    color: white;
-    width: 20%;
-    margin: 0 auto;
-    padding: 40px 40px 10px 40px;
-}
-
-#info-for-ticket > div > div > h3 {
-    padding-bottom: 20px;
-}
-
-#info-for-ticket > div > div > h2 {
-    text-align: center;
-}
-
-#info-for-ticket > div > #buy {
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 40px;
-}
-
-#buy > button {
-    padding: 5px;
-    font-size: 20px;
-}
-
-
 
 
 

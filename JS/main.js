@@ -4,12 +4,14 @@
 
 
 // variabili
-let distance, utAge, utPrezzo, prezzoConEta, prezzoFinale, toPay;
+let distance, utAge, utPrezzo, prezzoConEta, prezzoFinale, toPay, utName;
 
 const prezzoBase = 21;
 
 
 // richiesta info utente
+utName = prompt ("come ti chiami");
+
 distance = parseInt ( prompt ("quanti chilometri devi percorrere? controlla la mappa delle rotaie se non sei sicuro, e ricorda, se devi tornare devi raddoppiare la distanza"));
 
 utAge = parseInt ( prompt ("quanti anni hai?"));
@@ -76,9 +78,11 @@ toPay = euro.format(prezzoFinale)
 
 
 // esportazione in html
+document.getElementById ("utName").innerHTML = utName
 document.getElementById ("distance").innerHTML = distance
 document.getElementById ("utAge").innerHTML = utAge
 document.getElementById ("prezzo").innerHTML = toPay
+
 
 
 

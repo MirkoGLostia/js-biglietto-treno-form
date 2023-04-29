@@ -21,27 +21,29 @@
         <div>
             <div>
                 <h3>
-                    Nome e Cognome: <span id="utName"></span>
+                    <label for="name">Name: </label><input id="name" type="text" placeholder="name and surname" required>
                 </h3>
 
                 <h3>
-                    Età: <span id="utAge"></span>
+                    <label for="distance">Distance: </label><input id="distance" type="number" placeholder="how far?" required min="0" step="0.1">
                 </h3>
     
                 <h3>
-                    Distanza: <span id="distance"></span> km
+                    <label for="age">Age: </label><input id="age" type="number" placeholder="how old" required min="0" step="1">
                 </h3>
-    
-                <h2>
-                    <span id="prezzo"></span>
-                </h2>
+
+                <button id="submit">Submit</button>
+                <button id="clear">Clear</button>
             </div>
         </div>
     </main>
 
     <footer id="container-biglieto">
         <div>
-            RISULTATO
+            <div id="utName">__</div>
+            <div id="finalDistance">__</div>
+            <div id="utAge">__</div>
+            <div id="toPay">__</div>
         </div>
     </footer>
     

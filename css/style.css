@@ -8,10 +8,28 @@
     margin: 0;
 }
 
+body {
+    background-color: green;
+}
 
-/*********
- *HEADER*
- *********/
+
+
+/******
+ *head*
+ ******/
+
+#head-title {
+    height: 80px;
+}
+
+
+#head-title > h1 {
+    padding-top: 20px;
+    text-align: center;
+    color: rgb(20, 18, 53);
+}
+
+
 
 
 
@@ -20,13 +38,67 @@
  *MAIN*
  ******/
 
+#container-main {
+    display: flex;
+    max-height: calc(100vh - 80px);
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+#main-dati-acqusition {
+    height: 200px;
+    width: 800px;
+    margin: 20px;
+    padding: 20px;
+    background-color: bisque;
+    border-radius: 20px;
+}
+
+    
+
+
+    /******
+     *dati*
+     ******/
+
+    #main-dati-acqusition > #input-main {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #input-main input {
+        margin-top: 10px;
+        margin-bottom: 30px;
+        font-size: 16px;
+    }
+
+    #main-dati-acqusition > #button-container {
+        text-align: center;
+    }
+    
+    #main-dati-acqusition button {
+        margin: 20px 50px;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+
+
+
+    /******
+     *info*
+     ******/
+
+
+
+
+    /*******
+     *mappa*
+     *******/
 
 
 
 
 
-
-/********
- *FOOTER*
- ********/
 

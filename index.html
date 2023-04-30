@@ -19,41 +19,81 @@
 
     <!-- main -->
     <main id="container-main">
-        <!-- dati -->
-        <section id="main-dati-acqusition">
-            <!-- input -->
-            <div id="input-main">
-                <!-- nome e cognome -->
-                <div>
-                    <h2>Nome e Cognome</h2>
-                    <input id="name" type="text" placeholder="name and surname" required>
+        <div>
+            <!-- dati -->
+            <section id="main-dati-acqusition">
+                <!-- input -->
+                <div id="input-main">
+                    <!-- nome e cognome -->
+                    <div>
+                        <h2>Nome e Cognome</h2>
+                        <input id="name" type="text" placeholder="name and surname" required>
+                    </div>
+        
+                    <!-- età -->
+                    <div>
+                        <h2>Età</h2>
+                        <input id="age" type="number" placeholder="how old" required min="0" step="1">
+                    </div>
+        
+                    <!-- Distance -->
+                    <div>
+                        <h2>Distance</h2>
+                        <input id="distance" type="number" placeholder="how far?" required min="0" step="0.1">
+                    </div>
                 </div>
     
-                <!-- età -->
-                <div>
-                    <h2>Età</h2>
-                    <input id="age" type="number" placeholder="how old" required min="0" step="1">
+                <!-- buttons -->
+                <div id="button-container">
+                    <button id="submit">Submit</button>
+                    <button id="clear">Clear</button>
                 </div>
     
-                <!-- Distance -->
-                <div>
-                    <h2>Distance</h2>
-                    <input id="distance" type="number" placeholder="how far?" required min="0" step="0.1">
+            </section>
+    
+            <!-- info -->
+            <section id="main-info-show">
+                <!-- output -->
+                <div id="output-main">
+                    <!-- Passeggero -->
+                    <div>
+                        <h2>Passeggero: </h2>
+                        <div id="utName">________________</div>
+                    </div>
+        
+                    <!-- offerta -->
+                    <div>
+                        <h2>Offerta</h2>
+                        <div id="utAge">*********</div>
+                    </div>
+        
+                    <!-- carrozza -->
+                    <div>
+                        <h2>carrozza</h2>
+                        <div>*********</div>
+                    </div>
+
+                    <!-- codice cp -->
+                    <div>
+                        <h2>codice CP:</h2>
+                        <div>*********</div>
+                    </div>
+
+                    <!-- costo -->
+                    <div>
+                        <h2>costo</h2>
+                        <div id="toPay">&euro;**,**</div>
+                    </div>
                 </div>
-            </div>
-
-            <!-- buttons -->
-            <div id="button-container">
-                <button id="submit">Submit</button>
-                <button id="clear">Clear</button>
-            </div>
-
-        </section>
-
-        <!-- info -->
-        <section id="main-info-show">
-
-        </section>
+    
+                <!-- button -->
+                <div id="button-output">
+                    <button id="submit">Submit</button>
+                    <button id="clear">Clear</button>
+                </div>
+    
+            </section>
+        </div>
 
         <!-- mappa -->
         <section>

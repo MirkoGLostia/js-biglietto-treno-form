@@ -141,16 +141,17 @@ body {
      *mappa*
      *******/
 
-     #map-container > div {
-        padding-top: 30px;
-        padding-left: 200px;
+     #map-container  {
+        padding: 20px 100px 0px 100px;
         width: 90%;
-        height: 90%;
+        overflow: auto;
     }
     
-    #map-container > div > img {
-        height: 100%;
+    #map-container img {
+        width: 800px;
+        object-fit: contain;
      }
+
 
 
 

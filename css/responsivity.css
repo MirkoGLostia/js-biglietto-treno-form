@@ -1,0 +1,33 @@
+/* medium size */
+@media screen and (max-width: 1400px) {
+    
+    #container-main {
+        flex-direction: column-reverse;
+        max-height: none;
+    }
+    
+    #container-main > div, section {
+        margin: 0 auto;
+    }
+
+    #map-container {
+        padding: 50px auto;
+        overflow: none;
+        width: 100%;
+    }
+    
+    #map-container > div {
+        height: 850px;
+        text-align: center;
+    }
+
+    #map-container img {
+        width: 800px;
+    }
+
+}
+
+
+
+
+

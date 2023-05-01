@@ -26,7 +26,7 @@ body {
 #head-title > h1 {
     padding-top: 20px;
     text-align: center;
-    color: rgb(20, 18, 53);
+    color: rgb(15, 9, 141);
 }
 
 
@@ -45,16 +45,21 @@ body {
     overflow-y: auto;
 }
 
-#main-dati-acqusition {
+#main-dati-acqusition, #main-info-show {
     height: 200px;
     width: 800px;
     margin: 20px;
     padding: 20px;
-    background-color: bisque;
     border-radius: 20px;
+}   
+
+#main-dati-acqusition {
+    background-color: bisque;
 }
 
-    
+#main-info-show {
+    background-color: aquamarine;
+}
 
 
     /******
@@ -90,6 +95,45 @@ body {
      *info*
      ******/
 
+    #main-info-show > #output-main {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #output-main {
+        background-color: white;
+        border-radius: 15px;
+    }
+    
+    #output-main > div {
+        padding: 20px 20px;
+        border-radius: 15px 0px 0px 15px;
+    }
+
+    #passenger-ticket {
+        background-color: rgb(102, 25, 25);
+        color: white;
+    }
+
+    #output-main h2 {
+        margin-bottom: 10px;
+    }
+
+    #output-main > div > span {
+        margin-bottom: 10px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    #button-output {
+        text-align: center;
+    }
+    
+    #button-output > button {
+        margin-top: 20px;
+        padding: 10px 40px;
+        font-size: 18px;
+    }
 
 
 

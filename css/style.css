@@ -154,5 +154,22 @@ body {
 
 
 
+    /****************
+     *small view map*
+     ****************/
+
+    #small-view-button {
+        display: none;
+    }
+    
+    #small-view-button > button {
+        padding: 10px 60px;
+        font-size: large;
+        font-weight: 700;
+        background-color: red;
+        border: none;
+        border-radius: 15px;
+    }
+
 
 

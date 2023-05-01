@@ -1,6 +1,6 @@
 
 // variabili
-let distance, utAge, utPrezzo, prezzoConEta, prezzoFinale, toPay, utName, vagone, codeCP;
+let distance, utAge, utPrezzo, prezzoConEta, prezzoFinale, toPay, utName, vagone, codeCP, mapButton;
 
 const prezzoBase = 21;
 
@@ -88,7 +88,20 @@ submit.onclick = function(){
     document.getElementById("codeCP").innerText = codeCP;
 }
 
+// small view button
 
+function smallButton() {
+    
+    mapButton = document.getElementById("map-container");
+
+    if (mapButton.style.display === "none") {
+        mapButton.style.display = "block";
+    } 
+    else {
+      mapButton.style.display = "none";
+    }
+    
+}
 
 
 

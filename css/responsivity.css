@@ -32,18 +32,44 @@
 /* small size */
 @media screen and (max-width: 900px) {
 
-    #map-container {
-        display: none;
-        padding: 0 auto;
+    /* main */
+    #main-dati-acqusition, #main-info-show {
+        height: 600px;
+        width: 200px;
     }
 
-    #map-container img {
-        width: 100%;
-    }
+        /* dati */
+        #main-dati-acqusition > #input-main {
+            display: block;
+        }
+        
+        #main-dati-acqusition > #input-main > div {
+            padding-bottom: 30px;
+        }
 
-    #small-view-button {
-        display: block;
-    }
+        #main-dati-acqusition button {
+            margin: 20px auto;
+        }
+
+
+        /* info */
+
+
+
+
+        /* mappa */
+        #map-container {
+            display: none;
+            padding: 0 auto;
+        }
+
+        #map-container img {
+            width: 100%;
+        }
+
+        #small-view-button {
+            display: block;
+        }
 
 }
 

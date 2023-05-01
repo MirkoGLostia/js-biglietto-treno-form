@@ -53,7 +53,13 @@
 
 
         /* info */
+        #main-info-show > #output-main {
+            flex-direction: column;
+        }
 
+        #output-main > div {
+            border-radius: 15px 15px 0px 0px;
+        }
 
 
 

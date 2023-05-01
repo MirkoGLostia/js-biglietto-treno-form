@@ -1,6 +1,6 @@
 
 // variabili
-let distance, utAge, utPrezzo, prezzoConEta, prezzoFinale, toPay, utName;
+let distance, utAge, utPrezzo, prezzoConEta, prezzoFinale, toPay, utName, vagone, codeCP;
 
 const prezzoBase = 21;
 
@@ -75,12 +75,17 @@ submit.onclick = function(){
 
     toPay = euro.format(prezzoFinale)
 
+    vagone = Math.floor((Math.random() * 10) + 1);
+
+    codeCP =  Math.floor(Math.random() * (9999 - 1000 + 1) ) + 1000;
+
 
   
     document.getElementById("utName").innerText = utName;
-    // document.getElementById("finalDistance").innerText = distance;
     document.getElementById("utAge").innerText = utAge;
     document.getElementById("toPay").innerText = toPay;
+    document.getElementById("vagone").innerText = vagone;
+    document.getElementById("codeCP").innerText = codeCP;
 }
 
 
